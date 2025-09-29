@@ -91,9 +91,12 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t  border-gray-300  mt-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-sm md:text-[1.4vw] text-gray-500">
+      <div className="flex flex-col px-8 md:px-16 py-4  md:flex-row justify-between w-full gap-2 items-center border-t  border-gray-300  mt-24">
+        <div className="max-w-7xl     text-md md:text-[1.4vw] text-gray-500">
           © 2025 CartBliss. All rights reserved
+        </div>
+        <div className="max-w-7xl  text-md md:text-[1.4vw] text-gray-500">
+          created by ARCADY DESIGNS
         </div>
       </div>
     </footer>
