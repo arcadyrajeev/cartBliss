@@ -11,7 +11,7 @@ export default function NewsSection({
   cardData = [],
 }: CardSectionProps) {
   return (
-    <section className="relative z-6 w-full bg-white py-[6vw] pb-50">
+    <section className="relative z-6 w-full bg-white py-14 lg:py-[6vw] pb-50">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-[3vw]">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-[6vw]">

@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between w-full px-4 sm:px-6 lg:px-14 py-10">
         {/* Left - Company */}
         <div>
-          <h2 className="text-[7vw] font-thin text-black md:ml-10">
+          <h2 className="text-6xl lg:text-[7vw] font-thin text-black md:ml-10">
             CartBliss
           </h2>
         </div>

@@ -24,10 +24,14 @@ export default function EssentialsSection({
         </div>
 
         {/* Grid of items */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-[2vw]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-[2vw]">
           {cardData.map((item, idx) => (
-            <Link href={item.link} key={idx} className="flex flex-col">
-              <div className="group relative w-full lg:h-[50vw] overflow-hidden rounded-sm">
+            <Link
+              href={item.link}
+              key={idx}
+              className="flex flex-col flex-shrink-0"
+            >
+              <div className="group relative w-full h-100 lg:h-[50vw] overflow-hidden rounded-sm">
                 <Image
                   src={item.imageUrl}
                   alt={item.title}
