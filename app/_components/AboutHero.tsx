@@ -61,7 +61,7 @@ export default function AboutHero() {
       <div className="text-center w-full mx-auto px-[4vw] py-[10vw]">
         <h3 className="w-[90%] text-3xl md:text-[4vw] font-light text-left text-black leading-[1.1]">
           Our mission is to help men dress with ease and intention — whether
-          it's a Monday meeting or a Sunday afternoon.
+          it&apos;s a Monday meeting or a Sunday afternoon.
         </h3>
       </div>
 
