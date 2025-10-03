@@ -49,17 +49,17 @@ export default function HomeHero() {
       {/* Overlay Content */}
       <motion.div
         style={{ y: yText }}
-        className="absolute top-[24%] pt-65 z-5 w-full h-full flex flex-col justify-between items-center lg:items-end p-10 md:p-[4vw]"
+        className="absolute top-[24%] pt-65 md:pt-5 z-5 w-full h-full flex flex-col md:flex-row justify-between items-center lg:items-end p-10 md:p-[4vw]"
       >
         {/* Typewriter Title */}
-        <h1 className="text-white text-[4rem] md:text-4xl md:text-[6vw]">
+        <h1 className="text-white text-[4rem] md:text-[6rem] xl:text-[6vw]">
           {text}
           {!done && <span className="animate-pulse ml-1">|</span>}
         </h1>
 
         {/* Subtitle with Framer Motion */}
         <motion.p
-          className="text-white text-2xl lg:text-right md:text-[2.5vw]"
+          className="text-white text-2xl lg:text-3xl lg:text-right xl:text-[2.5vw]"
           initial={{ x: "100%", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, ease: [0.25, 1, 0.5, 1] }}

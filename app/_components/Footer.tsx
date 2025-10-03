@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-30 md:gap-[10vw] mt-8 md:mt-0">
           {/* Navigation */}
           <div>
-            <h3 className="text-2xl md:text-[2vw] font-medium text-black mb-4">
+            <h3 className="text-2xl md:text-[2vw] xl:text-[1.6vw] font-medium text-black mb-4">
               Navigation
             </h3>
             <ul className="space-y-2">
@@ -41,7 +41,7 @@ export default function Footer() {
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-2xl md:text-[1.8vw] text-gray-600 hover:text-black"
+                    className="text-2xl md:text-[1.8vw] xl:text-[1.4vw] text-gray-600 hover:text-black"
                   >
                     {link.name}
                   </Link>
@@ -52,7 +52,7 @@ export default function Footer() {
 
           {/* Info */}
           <div>
-            <h3 className="text-2xl md:text-[2vw] font-medium text-black mb-4">
+            <h3 className="text-2xl md:text-[2vw] xl:text-[1.6vw] font-medium text-black mb-4">
               Info
             </h3>
             <ul className="space-y-2">
@@ -60,7 +60,7 @@ export default function Footer() {
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-2xl md:text-[1.8vw] text-gray-600 hover:text-black"
+                    className="text-2xl md:text-[1.8vw] xl:text-[1.4vw] text-gray-600 hover:text-black"
                   >
                     {link.name}
                   </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h3 className="text-2xl md:text-[2vw] font-medium text-black mb-4">
+            <h3 className="text-2xl md:text-[2vw] xl:text-[1.6vw] font-medium text-black mb-4">
               Social
             </h3>
             <ul className="space-y-2">
@@ -79,7 +79,7 @@ export default function Footer() {
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-2xl md:text-[1.8vw] text-gray-600 hover:text-black"
+                    className="text-2xl md:text-[1.8vw] xl:text-[1.4vw] text-gray-600 hover:text-black"
                   >
                     {link.name}
                   </Link>
