@@ -11,11 +11,11 @@ export default function EssentialsSection({
   cardData = [],
 }: CardSectionProps) {
   return (
-    <section className="flex relative z-8 w-full bg-white py-60 md:py-[12vw] mt-[101dvh]">
+    <section className="flex relative z-8 w-full bg-white py-20 md:py-[12vw] mt-[101dvh]">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top section: title + description */}
         <div className="flex flex-col w-full md:flex-row justify-between gap-6 mb-12">
-          <h2 className="text-4xl md:text-[5vw] text-black leading-tighter w-full md:w-[20%]">
+          <h2 className="text-[4rem] md:text-[5vw] text-black leading-[1.2] w-full md:w-[20%]">
             {title}
           </h2>
           <p className="text-gray-700  text-md md:text-[1.4vw] w-full md:w-[28%] ">

@@ -37,7 +37,7 @@ export default function HomeHero() {
   return (
     <section ref={containerRef} className="w-full h-[100dvh] fixed top-0">
       {/* Background Image */}
-      <div className="flex w-full h-full overflow-hidden relative z-1">
+      <div className="flex w-full h-full overflow-hidden relative z-1 ">
         <Image
           src="/images/landingImg1.avif"
           alt="Hero Image"
@@ -49,10 +49,10 @@ export default function HomeHero() {
       {/* Overlay Content */}
       <motion.div
         style={{ y: yText }}
-        className="absolute top-[24%] z-5 w-full h-full flex justify-between items-end p-10 md:p-[4vw]"
+        className="absolute top-[24%] pt-65 z-5 w-full h-full flex flex-col justify-between items-center lg:items-end p-10 md:p-[4vw]"
       >
         {/* Typewriter Title */}
-        <h1 className="text-white text-4xl md:text-[6vw]">
+        <h1 className="text-white text-[4rem] md:text-4xl md:text-[6vw]">
           {text}
           {!done && <span className="animate-pulse ml-1">|</span>}
         </h1>
